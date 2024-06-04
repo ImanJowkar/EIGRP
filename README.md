@@ -8,16 +8,14 @@ Here are some key aspects of EIGRP:
 
 2. **Diffusing Update Algorithm (DUAL)**: EIGRP uses the DUAL algorithm to ensure loop-free routing and fast convergence. DUAL allows routers to maintain multiple feasible successor routes to a destination, providing redundancy and faster convergence in case of link failures.
 
-3. **Hello Protocol and Neighbor Discovery**: EIGRP routers use a Hello protocol to discover and establish adjacencies with neighboring routers. These adjacencies facilitate the exchange of routing information and help maintain routing tables.
 
-4. **Partial Updates**: EIGRP sends only partial updates when there are changes in the network topology, reducing the amount of bandwidth consumed compared to protocols like RIP, which send complete routing updates at regular intervals.
+3. **Partial Updates**: EIGRP sends only partial updates when there are changes in the network topology, reducing the amount of bandwidth consumed compared to protocols like RIP, which send complete routing updates at regular intervals.
 
-5. **VLSM and CIDR Support**: EIGRP supports Variable Length Subnet Masking (VLSM) and Classless Inter-Domain Routing (CIDR), allowing for efficient utilization of IP address space and more flexible network design.
 
-6. **Route Summarization**: EIGRP allows for the summarization of routes at network boundaries, reducing the size of routing tables and minimizing the propagation of routing information.
+4. **Route Summarization**: EIGRP allows for the summarization of routes at network boundaries, reducing the size of routing tables and minimizing the propagation of routing information.
 
-7. **Authentication**: EIGRP supports authentication mechanisms to secure routing updates exchanged between routers, ensuring that only authorized routers participate in routing processes.
+5. **Authentication**: EIGRP supports authentication mechanisms to secure routing updates exchanged between routers, ensuring that only authorized routers participate in routing processes.
 
-8. **Scalability**: EIGRP is designed to scale well in large networks, providing efficient routing in complex environments with multiple interconnected routers and subnets.
+6. **Scalability**: EIGRP is designed to scale well in large networks, providing efficient routing in complex environments with multiple interconnected routers and subnets.
 
-Overall, EIGRP is a robust and scalable routing protocol commonly used in enterprise networks, particularly those using Cisco networking equipment. However, being a Cisco proprietary protocol, interoperability with non-Cisco devices may be limited, which is something to consider when designing a network.
+Overall, EIGRP is a robust and scalable routing protocol commonly used in enterprise networks, particularly those using Cisco networking equipment.
