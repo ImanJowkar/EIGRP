@@ -19,7 +19,7 @@ bandwidth 1200
 
 
 router eigrp my-eig
-address-family ipv4 autonomous-system 1
+address-family ipv4 unicast autonomous-system 1
 network 10.10.23.3 0.0.0.0
 network 10.10.34.3 0.0.0.0
 ```
